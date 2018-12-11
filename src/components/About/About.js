@@ -14,8 +14,8 @@ export default class About extends Component {
         </div>
         <div className='box'>
 			<Switch>
-				<Route path='/about/history' component={History} ></Route>
-				<Route path='/about/contact' component={Contact} ></Route>
+				<Route path='/about/history' component={History} />
+				<Route path='/about/contact' component={Contact} />
 				<Route exact path='/about' render= {() =>
 						<div>
 							<h1 className='title'>About WestSide University:</h1>
